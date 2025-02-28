@@ -41,7 +41,7 @@ public class Food {
     public void displayIngredients() {
         System.out.println("Ingredients of " + name + ":");
         for (Ingredient ingredient : ingredients) {
-            System.out.println(ingredient.getName() + ",");
+            System.out.print(ingredient.getName() + ",");
         }
     }
 	

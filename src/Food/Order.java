@@ -29,8 +29,11 @@ public class Order {
 	}
 	
 	public void displayOrder() {
-		System.out.println(user.getName() + " ordered " + food.getName() + " on " + date);
-	}
+        System.out.println("----------------------------------------------------------------------------------------------------");
+        System.out.println("User: " + user.getName() + " - " + user.getId());
+        System.out.println("Food: " + food.getName());
+        System.out.println("Date: " + date);
+    }
 
 
 	
